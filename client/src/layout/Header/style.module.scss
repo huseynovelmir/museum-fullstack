@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  .container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #c9a050;
+    border-bottom: 1px solid #c9a050;
+    h1 {
+      color: #ebe9cf;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .Navlink {
+        padding: 30px;
+        height: max-content;
+        color: #ebe9cf;
+        text-decoration: none;
+        transition: 0.4s;
+      }
+      .lastLink {
+        border-left: 1px solid #c9a050;
+      }
+    }
+    .Navlink:hover {
+      background-color: #13130e;
+      color: #c9a050;
+    }
+  }
+}
