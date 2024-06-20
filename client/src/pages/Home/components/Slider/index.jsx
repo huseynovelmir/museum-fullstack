@@ -1,9 +1,9 @@
 import React from "react";
-import museum1 from "./../../assets/images/museum1.jpg";
-import museum2 from "./../../assets/images/museum2.jpg";
-import museum3 from "./../../assets/images/museum3.jpg";
-import museum4 from "./../../assets/images/museum4.jpg";
-import museum5 from "./../../assets/images/museum5.jpg";
+import museum1 from "./../../../../assets/images/museum1.jpg";
+import museum2 from "./../../../../assets/images/museum2.jpg";
+import museum3 from "./../../../../assets/images/museum3.jpg";
+import museum4 from "./../../../../assets/images/museum4.jpg";
+import museum5 from "./../../../../assets/images/museum5.jpg";
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 
 const Slider = () => {

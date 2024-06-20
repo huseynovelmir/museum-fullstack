@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
-import visitor from "../../assets/images/visitorinfo.jpg";
+import visitor from "../../../../assets/images/visitorinfo.jpg";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 const Visitorinfo = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 import { Link } from "react-router-dom";
-import bg from "../../assets/images/bg.jpeg";
+import bg from "../../../../assets/images/bg.jpeg";
 const Exhibitions = () => {
   return (
     <div className={style.exhibitions}>
