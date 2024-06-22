@@ -14,11 +14,11 @@ const About = () => {
             constant activity in spheres of research, exhibitions and cultural
             education.
           </p>
-          <button>More About</button>
+          <Link to="/aboutus">
+            <button>More About</button>
+          </Link>
         </div>
-        <Link to="#">
-          <div className={style.img}></div>
-        </Link>
+        <div className={style.img}></div>
       </div>
     </div>
   );
