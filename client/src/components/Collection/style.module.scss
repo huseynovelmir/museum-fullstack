@@ -1,0 +1,140 @@
+.collection {
+  width: 100%;
+  display: flex;
+  padding: 50px 100px;
+  background-color: #f7f6ec;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    .head {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0px;
+      border-bottom: 2px solid black;
+      margin-bottom: 30px;
+      h1 {
+        font-size: 40px;
+      }
+      .link {
+        font-size: 13px;
+      }
+    }
+    .boxs {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 50px 0px;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .boxLink {
+        width: 30%;
+        .box {
+          display: grid;
+          gap: 10px;
+          img {
+            width: 100%;
+          }
+          p {
+            font-size: 24px;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+    .collection {
+        padding: 50px 50px;
+        .container {
+        .head {
+            h1 {
+            font-size: 30px;
+            }
+            .link {
+            font-size: 11px;
+            }
+        }
+        .boxs {
+            .boxLink {
+            width: 45%;
+            .box {
+                p {
+                font-size: 20px;
+                }
+                span {
+                font-size: 12px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+@media only screen and (max-width: 920px) {
+    .collection {
+        padding: 50px 20px;
+        .container {
+        .head {
+            h1 {
+            font-size: 20px;
+            }
+            .link {
+            font-size: 9px;
+            }
+        }
+        .boxs {
+            .boxLink {
+            width: 100%;
+            .box {
+                p {
+                font-size: 16px;
+                }
+                span {
+                font-size: 10px;
+                }
+            }
+            }
+        }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .collection {
+        padding: 50px 20px;
+        .container {
+        .head {
+            h1 {
+            font-size: 20px;
+            }
+            .link {
+            font-size: 9px;
+            }
+        }
+        .boxs {
+            .boxLink {
+            width: 100%;
+            .box {
+                p {
+                font-size: 16px;
+                }
+                span {
+                font-size: 10px;
+                }
+            }
+            }
+        }
+        }
+    }
+}

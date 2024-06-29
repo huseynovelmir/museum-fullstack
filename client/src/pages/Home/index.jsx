@@ -4,6 +4,7 @@ import Slider from "../../components/Slider";
 import About from "../../components/About";
 import Exhibitions from "../../components/Exhibitions";
 import Visitorinfo from "../../components/Visitorinfo";
+import Collection from "../../components/Collection";
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
       <About />
       <Exhibitions />
       <Visitorinfo />
+      <Collection />
     </div>
   );
 };
