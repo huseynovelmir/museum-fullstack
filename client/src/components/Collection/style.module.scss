@@ -55,86 +55,86 @@
   }
 }
 @media only screen and (max-width: 1200px) {
-    .collection {
-        padding: 50px 50px;
-        .container {
-        .head {
-            h1 {
-            font-size: 30px;
-            }
-            .link {
-            font-size: 11px;
-            }
+  .collection {
+    padding: 50px 50px;
+    .container {
+      .head {
+        h1 {
+          font-size: 30px;
         }
-        .boxs {
-            .boxLink {
-            width: 45%;
-            .box {
-                p {
-                font-size: 20px;
-                }
-                span {
-                font-size: 12px;
-                }
-            }
-            }
+        .link {
+          font-size: 11px;
         }
+      }
+      .boxs {
+        .boxLink {
+          width: 45%;
+          .box {
+            p {
+              font-size: 20px;
+            }
+            span {
+              font-size: 12px;
+            }
+          }
         }
+      }
     }
+  }
 }
 @media only screen and (max-width: 920px) {
-    .collection {
-        padding: 50px 20px;
-        .container {
-        .head {
-            h1 {
-            font-size: 20px;
-            }
-            .link {
-            font-size: 9px;
-            }
+  .collection {
+    padding: 50px 20px;
+    .container {
+      .head {
+        h1 {
+          font-size: 20px;
         }
-        .boxs {
-            .boxLink {
-            width: 100%;
-            .box {
-                p {
-                font-size: 16px;
-                }
-                span {
-                font-size: 10px;
-                }
-            }
-            }
+        .link {
+          font-size: 9px;
         }
+      }
+      .boxs {
+        .boxLink {
+          width: 100%;
+          .box {
+            p {
+              font-size: 16px;
+            }
+            span {
+              font-size: 10px;
+            }
+          }
         }
+      }
     }
+  }
 }
 @media only screen and (max-width: 768px) {
-    .collection {
-        padding: 50px 20px;
-        .container {
-        .head {
-            h1 {
-            font-size: 20px;
-            }
-            .link {
-            font-size: 9px;
-            }
+  .collection {
+    padding: 50px 20px;
+    .container {
+      .head {
+        h1 {
+          font-size: 20px;
         }
-        .boxs {
-            .boxLink {
-            width: 100%;
-            .box {
-                p {
-                font-size: 16px;
-                }
-                span {
-                font-size: 10px;
-                }
-            }
-            }
+        .link {
+          font-size: 9px;
         }
+      }
+      .boxs {
+        .boxLink {
+          width: 100%;
+          .box {
+            p {
+              font-size: 16px;
+            }
+            span {
+              font-size: 10px;
+            }
+          }
         }
+      }
     }
+  }
 }
